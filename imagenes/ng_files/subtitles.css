@@ -1,0 +1,44 @@
+.adiCard {}
+.adiCard .adiCardHeader {}
+.adiCard .adiCardBody {}
+.adiCard.tpSubtitlesCard .subtitleList {}
+
+
+
+/*  ----- Propio   ------------------------------------------  */
+.adiCardContainer{display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; flex-direction: column}
+.adiCardTitle, .adiCardBody *{ font-size:24px; text-transform:uppercase; text-align:center; color:#fff; font-weight:normal}
+
+.subtitleList .subtitleListOption{ padding:30px 150px;  border: 1px solid #fff;}
+.subtitleList .subtitleListOption:first-child{ border-bottom:none}
+.subtitleList .subtitleListOption:hover{ background:#fff; }
+.subtitleList .subtitleListOption:hover a{color:#000!important}
+
+.adiCard.tpSubtitlesCard .subtitleListOption a {text-align:center; color:#fff}
+.adiCard .adiCardClose {position: absolute; top: 24px; right: 24px; width:32px; height:32px; z-index: 9999;}
+.adiCard .adiCardContainer {position: relative;}
+.tpClose .undefined{background-image: url("https://players.fichub.com/plugins/mpx/subtitles/close_button.png"); background-repeat: no-repeat; width:32px!important; height:32px!important; cursor:pointer; opacity:0.9; background-size:32px 32px}
+.tpClose .undefined:hover{ opacity:1}
+.adiCardClose .FormsNavButtonSkin{ width:32px!important; height:32px!important; display:none!important}
+.adiCardTitle{ margin-bottom:30px}
+#noSubtitle .subtitleListOption{ border:none; }
+#noSubtitle .subtitleListOption a{font-size:18px}
+
+
+
+
+@media only screen and (max-width: 41.750em) {
+	.subtitleList .subtitleListOption{ padding:10px 50px}
+	.adiCardTitle, .adiCardBody *{ font-size:14px}
+	.adiCardTitle{ margin-bottom:15px}
+	.adiCard .adiCardClose {top: 16px; right: 16px; }
+	#noSubtitle .subtitleListOption a{font-size:12px}
+}
+
+@media screen and (min-width: 41.688em) and (max-width: 63.938em) {	
+.subtitleList .subtitleListOption{ padding:20px 100px}
+	.adiCardTitle, .adiCardBody *{ font-size:20px}
+	.adiCardTitle{ margin-bottom:20px}
+	.adiCard .adiCardClose {top: 20px; right:20px; }
+	#noSubtitle .subtitleListOption a{font-size:16px}
+}

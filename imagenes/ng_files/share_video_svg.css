@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'GeoEditRegular';
+    src: url('../../../fonts/geographeditweb-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GeoEditBold';
+    src: url('../../../fonts/GeographWeb-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GeographWeb-Light';
+    src: url('../../../fonts/GeographWeb-Light.eot');
+    src: url('../../../fonts/GeographWeb-Light.woff') format('woff');
+    src: url('../../../fonts/GeographWeb-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeographWeb-Bold';
+    src: url('../../../fonts/GeographWeb-Bold.eot');
+    src: url('../../../fonts/GeographWeb-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.shareVideoCard .panel_share *{display:inline-block;padding: 0; margin: 0;  font-size:11px;}
+
+/**{ padding: 0; margin: 0}*/
+
+.shareVideoCard{
+    position: relative;
+    /**padding-bottom: 56.25%!important**/;
+    pointer-events: none!important;
+    pointer-events: none!important;
+    background-color: transparent!important;
+    z-index:9999;
+}
+
+.shareVideoCard .mainImg{position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 0;
+    overflow: hidden;}
+
+/*Share Panel*/
+
+.shareVideoCard .social_media_right {
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    right: 0;
+    padding:0;
+    margin: 0;
+    margin-top: -75px!important;
+    list-style-type: none;
+}
+
+.shareVideoCard .social_media_right li{
+    list-style: none;
+}
+
+.social_media_right {
+    pointer-events: auto;
+}
+
+.social_media_right .socialIcon{
+    padding: 10px!important;
+    fill: white;
+    width: 25px!important;
+    height: 25px!important;
+    box-sizing: content-box!important;
+}
+
+.social_media_right .socialIcon:hover {
+    padding: 10px!important;
+    fill: #000;
+    width: 25px!important;
+    height: 25px!important;
+    box-sizing: content-box!important;
+}
+
+.social_media_right .icon {
+    cursor: pointer!important;
+    background-color: #000;
+}
+
+.social_media_right .icon:hover {
+    background-color: #fff;
+}
+
+.social_media_right .icon_tw {
+    cursor: pointer!important;
+    background-color: #000;
+}
+
+.social_media_right .icon_tw:hover {
+    background-color: #fff;
+}
+
+.social_media_right .icon_em {
+    cursor: pointer!important;
+    background-color: #000;
+}
+
+.social_media_right .icon_em:hover {
+    background-color: #fff;
+
+}
+
+.social_media_right .icon_wha {
+    cursor: pointer!important;
+    background-color: #000;
+}
+
+.social_media_right .icon_wha:hover {
+    background-color: #fff;
+}
+
+
+.shareVideoCard .panel_share {
+    position: absolute;
+    z-index: 10000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0,0, 0.7);
+    padding: 3%!important;
+    text-align: center;
+}
+
+.shareVideoCard .panel_share .share_close
+{
+    position: absolute;
+    z-index: 6;
+    top: 8%;
+    left: 6%;
+}
+
+
+.shareVideoCard .panel_share .share_close .close_icon{
+    width: 23px;
+    height: 17px;
+    cursor: pointer!important;
+}
+
+.shareVideoCard .panel_share .embed_video {
+    position: relative;
+    width: 100%;
+}
+
+
+.panel_share .embed_video h5 {
+    z-index: 10;
+    font-size: 13px;
+    color: white;
+    font-family: 'GeoEditRegular'!important;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+    margin: auto!important;
+    padding:2% 2% 0.5% 2%!important;
+
+}
+
+
+.shareVideoCard .panel_share form {
+    width: 100%;
+    padding-bottom: 1%!important;
+}
+
+.shareVideoCard .panel_share h6 {
+    z-index: 10;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-family: 'GeoEditRegular'!important;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+    padding:3% 0 0.5% 0!important;
+}
+
+.panel_share form input {
+    width: 400px;
+    height: 30px;
+
+}
+.shareVideoCard .panel_share .button {
+    border: 1px solid #FFFFFF;
+    padding: 10px 15px!important;
+    cursor: pointer!important;
+    font-family: 'GeoEditRegular'!important;
+    font-size: 13px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+}
+
+.shareVideoCard .panel_share .button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.embed_video .social_media{
+    list-style-type: none;
+    width: 100%;
+    z-index: 3;
+}
+
+.embed_video .social_media .icon{
+    background-color: #3c5a99;
+    cursor: pointer!important;
+    line-height: inherit;
+}
+
+.embed_video .social_media .socialIcon{
+    padding: 10px!important;
+    fill: white;
+    width: 25px;
+    height: 25px;
+    /*box-sizing: content-box!important;*/
+}
+
+.embed_video .social_media .icon_tw {
+
+    cursor: pointer!important;
+    background-color: #1da1f2;
+}
+
+.embed_video .social_media .icon_wha{
+    cursor: pointer!important;
+    background-color: #25d366;
+}
+
+/** New CSS **/
+.social_media_right .facebook:hover {
+    content:url(../../img/facebook_icon_black.svg);
+}
+
+.social_media_right .whatsapp:hover {
+    content:url(../../img/whatsapp_icon_black.svg);
+}
+
+.social_media_right .twitter:hover {
+    content:url(../../img/twitter_icon_black.svg);
+}
+
+.social_media_right .embed:hover {
+    content:url(../../img/embed_icon_black.svg);
+}
+
+.social_media_right .facebook {
+    content:url(../../img/facebook_icon_white.svg);
+}
+
+.social_media_right .whatsapp {
+    content:url(../../img/whatsapp_icon_white.svg);
+}
+
+.social_media_right .twitter {
+    content:url(../../img/twitter_icon_white.svg);
+}
+
+.social_media_right .embed {
+    content:url(../../img/embed_icon_white.svg);
+}
+
+.social_media_right .facebook:hover::after {
+    content:url(../../img/facebook_icon_black.png);
+}
+
+.social_media_right .whatsapp:hover::after {
+    content:url(../../img/whatsapp_icon_black.png);
+}
+
+.social_media_right .twitter:hover::after {
+    content:url(../../img/twitter_icon_black.png);
+}
+
+.social_media_right .embed:hover::after {
+    content:url(../../img/embed_icon_black.png);
+}
+
+.social_media_right .facebook::after {
+    content:url(../../img/facebook_icon_white.png);
+}
+
+.social_media_right .whatsapp::after {
+    content:url(../../img/whatsapp_icon_white.png);
+}
+
+.social_media_right .twitter::after {
+    content:url(../../img/twitter_icon_white.png);
+}
+
+.social_media_right .embed::after {
+    content:url(../../img/embed_icon_white.png);
+}
+
+.panel_share {
+    display: none;
+    pointer-events: auto;
+}
+
+.panel_share li{
+    margin-left: 5px!important;
+    margin-right: 5px!important;
+}
+
+.shareVideoCard .panel_share form input {
+    background-color: white;
+    color: black;
+}
+
+/* Changes in this files */
+/* All cursor add -> !important */
+/* mainContainer -> shareVideoCard */
+/* Remove -> background: url(img/sharks.jpg) no-repeat; in shareVideoCard */
+/* Add #social_media_right .facebook | #social_media_right .facebook:hover -> y las demas redes sociales */
+/* Pointer events auto lu */
+/* Pointer events none shareVideoCard */
+/* Background-color transparent shareVideoCard */
+/* background-color: white; color: black; to #shareVideoCard #panel_share form input */
+/* #button -> .button */
+/* All #  -> . */

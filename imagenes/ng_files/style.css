@@ -1,0 +1,39 @@
+/* Desktop */
+
+.unmute {
+    background-color: #F2F2F2!important;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    display: inline-block;
+    white-space: nowrap;
+    width:45px;
+    height:40px;
+    cursor: pointer!important;
+}
+
+.unmute img{
+    width:35px!important;
+    height: 35px!important;
+    margin-left: 5px!important;
+    margin-top: 2px!important;
+    zoom: 1!important;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 1000px) {
+    .unmute {
+        margin-top: 20px;
+        width:40px;
+        height:35px;
+    }
+
+    .unmute img{
+        width:30px!important;
+        height: 30px!important;
+        margin-left: 5px!important;
+        margin-top: 2px!important;
+        zoom: 1!important;
+    }
+}
